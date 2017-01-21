@@ -6,7 +6,7 @@ export default class MyScene extends Component {
     return (
       <View>
         <Text>Current Scene: {this.props.title}</Text>
-
+        
         <TouchableHighlight onPress={this.props.onForward}>
           <Text>Tap me to load the next scene</Text>
         </TouchableHighlight>
